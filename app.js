@@ -5,7 +5,7 @@ app.use(express.json());
 
 
 const userRoute = require('./routes/user');
-app.use="/users", userRoute);
+app.use("/users", userRoute);
 
 const postRoute = require('./routes/post')
 app.use("/posts",postRoute)
